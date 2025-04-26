@@ -4,4 +4,6 @@ try:
     file= open("text.txt")
     print(file.read())
 except:
-    print("there was an error")
+    file = open(file="text.txt","w")
+    file.write("something")
+    
