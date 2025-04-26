@@ -4,4 +4,4 @@ try:
     file= open("text.txt")
     print(file.read())
 except:
-    
+    print("there was an error")
